@@ -1,0 +1,204 @@
+@charset "utf-8";
+body {
+	margin-top: 10px;
+	word-wrap: break-word;  
+	background-color:#AAA;
+	font-family: 'Times New Roman', Verdana, serif;
+	font-size: 16px; 
+}
+htitle {
+	text-align: center;
+	font-size: 56px; 
+	font-weight: normal;
+	text-decoration: none; 
+	line-height: 40%;
+	margin-top: 30px;
+	display: block;
+}
+subhtitle {
+	text-align: center;
+	font-size: 16px; 
+	font-weight: normal;
+	text-decoration: none; 
+	line-height: 20px;
+	margin-bottom: 30px;
+	display: block;
+}
+div#block {min-width:600px; max-width:1000px; margin:0 auto;}
+div#search {
+	width:530px;
+	padding: 15px;
+	margin-right: 5px;
+	margin-top: 25px;
+	-moz-border-radius: 20px 40px;
+	-webkit-border-radius: 20px 40px;
+	font-size: 20px; 
+	background-color:#daa
+}
+div#search label{
+	float: left;
+	width: 180px;
+	text-align: right;
+	position: relative;
+	top: 0px;
+	margin-right: 5px;
+	font-weight: bold;
+} 
+div.header{
+	-moz-border-radius: 40px 20px;
+	-webkit-border-radius: 40px 20px;
+	height:150px;
+	padding: 20px;
+	background-color:#FFFFFF;
+	margin-bottom: 15px;
+	}
+div.forum {
+	-moz-border-radius: 40px 20px;
+	-webkit-border-radius: 40px 20px;
+	background-color:#FFFFFF;
+	margin-bottom: 15px;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	}
+div logo {
+	font-size: 40px; 
+	float: left;
+	position: relative;
+	margin-right: 25px;
+	padding-left: 15px;
+	}
+div.left_col {
+	margin-bottom: 15px;
+	width:348px; 
+	float:left;
+	padding: 15px;
+	margin-right: 5px;
+	-moz-border-radius: 20px 40px;
+	-webkit-border-radius: 20px 40px;
+	background-color:#dddddd
+	}
+div.right_col {
+	margin-bottom: 15px;
+	padding: 15px;
+	margin-left: 400px;
+	-moz-border-radius: 20px 40px;
+	-webkit-border-radius: 20px 40px;
+	background-color:#dddddd
+	}
+div.footer {
+	text-align: center;
+	padding-top: 10px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	height:50px; 
+	background-color:#FFFFFF; 
+	clear:both
+}
+div.menu, a{
+	text-align: center;
+	color: #0060B6;
+}
+form {
+	overflow: hidden;
+	padding-top: 2px;
+	}
+form div {
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+	}
+form label {
+	float: none;
+	display: block;
+	width: 300px;
+	text-align: left;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+	}
+form input[type=text], form input[type=password], form select {
+	width: 340px;
+	color: #0A0;
+	background: #fff;
+	border: 1px solid #7f9db9;
+	height: 23px;
+	}
+form .rndcode {
+	width: 145px !important;
+	}
+form select {
+	background: #F8C43F !important;
+	color: #000 !important;
+	}
+form input[type=submit] {
+	margin-left: 5px;
+	cursor: pointer;
+	font-size: 18px; 
+	font-weight: normal;
+	background: #0094FF
+	}
+form input[type=checkbox] {
+	border: none;
+	}
+.formCheck {
+	background: none;
+	}
+form textarea {
+	width: 250px;
+	height: 100px;
+	}
+form .formLabelAuto { /* для label рядом с radio и check */
+	width: auto; /* сбрасываем все, что уставили чтобы элемент вел себя как обычно */
+	float: none;
+	position: static;
+	}
+form #private { /* отступ для checkbox */
+	margin-left: 0;
+	}
+form label span {
+	color: #ff0000; /* цвет звездочки */
+	}
+form .formError label {
+	color: #ff0000; /* цвет метки при ошибке */
+	}
+form .formError input {
+	border-color: #ff0000; /* цвет бордюра у поля в котором была ошибка */
+	}
+form .formErrorMess { /* оформление сообщения об ошибке */
+	color: #ff0000;
+	display: block;
+	}
+form .formSuccess { 
+	color: #14730B;
+	font-size: 14px; 
+	font-weight: normal;
+	display: block;
+	}
+div rndcode{
+	font: 16px verdana, arial, helvetica, sans-serif;
+	letter-spacing: 5px;
+	font-weight: bold;
+	background: #0f0;
+	}
+.small, .small:link, .small:visited, .small:active
+{
+	font-weight: normal;
+	text-decoration: none;
+	color: #909090;
+	text-align: center;
+	font: 9px verdana, arial, helvetica, sans-serif;
+}
+a {
+	border: none;
+	font-weight: bold;
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border: none;
+	}

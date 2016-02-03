@@ -1,0 +1,10 @@
+*~
+*.save
+*.user
+*.sqlite
+config.inc
+showdb.php
+/punbb/
+# Exceptions
+!/punbb/include/user/*
+!/punbb/include/template/main.tpl
